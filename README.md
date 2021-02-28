@@ -4,7 +4,7 @@
 # Problema
 Vamos jogar um jogo simples que envolve dinheiro. Se eu lhe der uma soma inicial, digamos N euros, deverá devolver-me dinheiro desta soma conforme regras pre-estabelecidas. Se conseguir, com essas regras ficar com exactamente 42 euros em mão, então ganhou o jogo e fica com esta soma.
 
-Se assumirmos que tem m euros em m˜ao, as regras são:
+Se assumirmos que tem m euros em mão, as regras são:
 • (regra 1) se m for par, pode devolver-me m/2 euros;
 • (regra 2) se m for um múltiplo de 3 ou de 4 então pode multiplicar os dois últimos dígitos de m e devolver-me esta quantidade em euros;
 • (regra 3) se m for um múltiplo de 5 então pode devolver-me exactamente 42 euros.
