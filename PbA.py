@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-import math
 
 print("A resposta e 42!\n")
 print("Introduza o valor: ")
