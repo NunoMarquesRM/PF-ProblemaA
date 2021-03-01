@@ -33,6 +33,11 @@ while(True):
         # aux2 = 23 - 20 = 3
         aux1 = int(num / 10)
         aux2 = int(num-(aux1*10))
+        # OU
+        #n = 23
+        #x = n % 10
+        #y = int((n-x)/10)
+        # x = 3 e y = 2
         m = int(aux1*aux2)
         itera += 1
         
