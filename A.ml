@@ -8,21 +8,6 @@ let aux2 = ref 0;;
 let flag = ref true;;
 let regra = ref 0;;
 
-(* Retirado de:
-
-    https://stackoverflow.com/questions/14328600/ocaml-looking-at-a-specific-digit-of-an-int
-
-Transforma os digitos de um inteiro numa lista de inteiros
-
-let digits n =
-    let rec loop n acc =
-        if n = 0 then acc
-        else loop (n/10) (n mod 10::acc) in
-    match n with
-    | 0 -> [0]
-    | _ -> loop n []
-*)
-
 (*  *)
 let rec game(numFinal,count) = 
     m := 0;
@@ -121,7 +106,7 @@ let () =
                 printf "Regra %d\n" !regra;
             )
             else(
-                (*printf "CRL\n";*)
+                (*printf "Entrou\n";*)
                 flag := false;
             );
             numFinal:= !numFinal - !m;
