@@ -2,7 +2,7 @@
  A Resposta é 42!
 
 # Problema
-Vamos jogar um jogo simples que envolve dinheiro. Se eu lhe der uma soma inicial, digamos N euros, deverá devolver-me dinheiro desta soma conforme regras pre-estabelecidas. Se conseguir, com essas regras ficar com exactamente 42 euros em mão, então ganhou o jogo e fica com esta soma.
+Vamos jogar um jogo simples que envolve dinheiro. Se eu der uma soma inicial, digamos N euros, deverá devolver-me dinheiro desta soma conforme regras pré-estabelecidas. Se conseguir, com essas regras, ficar com exactamente 42 euros em mão, então ganhou o jogo e fica com esta soma.
 
 Se assumirmos que tem m euros em mão, as regras são:  
 • (regra 1) se m for par, pode devolver-me m/2 euros;  
